@@ -2344,9 +2344,8 @@ select:focus {
 }
 .img-fluid1 {
   max-width: 100%;
-  height: auto;
   filter: brightness(0) invert(1);
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .footer .footer-privacypolicy {
