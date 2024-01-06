@@ -13,16 +13,25 @@
     />
 
     <style>
-      #video-container {
+     #video-container {
         display: none;
       }
+
       #close-button {
         display: none;
         position: absolute;
-        right: 0%;
-        margin-right: 40px;
+        top: 10px;
+        right: 20px;
         cursor: pointer;
+        color: white;
+      } 
+      @media (max-width: 570px) {
+        #video-container iframe {
+          width: 100vw; /* Adjust the width for screens below 570 pixels */
+        }
+
       }
+
     </style>
     <link
       rel="stylesheet"
