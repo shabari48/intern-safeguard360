@@ -204,9 +204,7 @@ p.aj_des {
   }
 }
 
-::selection {
-  color: #fff;
-}
+
 .table .ribbon {
   width: 150px;
   height: 150px;
